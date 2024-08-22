@@ -15,6 +15,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
+  variants: {
+    scrollbar: ["rounded"],
+  },
 };
 export default config;
