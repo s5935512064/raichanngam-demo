@@ -205,7 +205,7 @@ const Footer: FC<Props> = (): JSX.Element => {
             )}
           >
             <p className="text-xs md:text-sm text-center text-white">
-              Copyright © 2024 {year != "2024" && -year} Rai Chan Ngam All
+              Copyright © 2025 {year != "2025" && -year} Rai Chan Ngam All
               rights reserved.
             </p>
           </div>

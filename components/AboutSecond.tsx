@@ -26,13 +26,35 @@ const AboutSecond: FC<Props> = (): JSX.Element => {
 
           <div className="w-full h-full flex items-center justify-center ">
             <div className="max-w-screen-sm flex flex-col gap-1 md:gap-2  p-6 md:p-10">
-              <h1 className="text-[#1f3026] text-xl md:text-3xl font-medium">
-                ที่ไร่จันทร์งาม
+              <p className="text-[#1f3026] text-base md:text-lg opacity-85 ">
+                ไร่จันทน์งามไม่ใช่แค่สวนเกษตรธรรมดา
+                แต่เป็นพื้นที่ที่รวมความหลากหลายของผลผลิต
+                และธรรมชาติในแบบที่ผสมผสานกัน มีทั้งแปลงผลไม้หลากหลาย
+                ตั้งแต่มะยงชิด, ส้มโอ, ทุเรียน, มะม่วงอกร่องเขียว, ฝรั่งกิมจู,
+                ข้าวโพดหวานพันธุ์ฮอกไกโด และเมล่อนญี่ปุ่นที่มีชื่อเสียง
+                จนกลายเป็นผลไม้ยอดนิยมของไร่จันทน์งาม และยังมีแปลงผักออร์แกนิก,
+                แปลงดอกไม้สีสันสดใสที่ทำให้ไร่จันทน์งามสดชื่นน่าไปเยี่ยมชม
+              </p>
+
+              <h1 className="text-[#1f3026] text-xl md:text-3xl font-medium mt-4">
+                การผสานความพอเพียงกับไลฟ์สไตล์สมัยใหม่
+              </h1>
+
+              <p className="text-[#1f3026] text-base md:text-lg opacity-85 ">
+                ไร่จันทน์งามเป็นตัวอย่างของการใช้ชีวิตที่เรียบง่าย แต่ยั่งยืน
+                เจ้าของไร่ที่เป็น{" "}
+                <span className="font-semibold italic">Gentleman Farmer</span>{" "}
+                ได้แสดงให้เห็นว่าการเกษตร ไม่ใช่เพียงการทำเพื่อความอยู่รอด
+                แต่ยังเป็นวิถีชีวิตที่เติมเต็มความสุขให้กับทุกช่วงวัย
+              </p>
+
+              {/* <h1 className="text-[#1f3026] text-xl md:text-3xl font-medium">
+                ที่ไร่จันทน์งาม
                 เราเชื่อว่าการทำเกษตรที่ดีต้องไม่เพียงแต่ให้ผลผลิตที่มีคุณภาพ
                 แต่ยังต้องรักษาสมดุลของธรรมชาติและสร้างประโยชน์แก่ชุมชนด้วย
                 นี่คือแนวทางการดำเนินงานของเรา
-              </h1>
-
+              </h1> */}
+              {/* 
               <ul className="list-disc list-outside pl-4 mt-2 md:mt-4 flex flex-col gap-2 text-base md:text-lg">
                 <li className="text-[#1f3026]/75">
                   <span className="font-medium text-[#1f3026] ">
@@ -72,7 +94,7 @@ const AboutSecond: FC<Props> = (): JSX.Element => {
                   นำเศษผักผลไม้มาทำปุ๋ยหมักและน้ำหมักชีวภาพ
                   ใช้บรรจุภัณฑ์ที่เป็นมิตรกับสิ่งแวดล้อมและย่อยสลายได้
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

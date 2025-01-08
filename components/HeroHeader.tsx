@@ -102,7 +102,7 @@ const HeroHeader: FC<Props> = (): JSX.Element => {
           transition={{ duration: 1 }}
           className="text-3xl md:text-7xl max-w-screen-md font-medium text-center text-white  drop-shadow-md uppercas"
         >
-          ยินดีต้อนรับสู่ไร่จันทร์งาม
+          ไร่จันทน์งาม
         </motion.h1>
 
         <motion.p
@@ -111,7 +111,8 @@ const HeroHeader: FC<Props> = (): JSX.Element => {
           transition={{ duration: 1, delay: 0.2 }}
           className="text-lg md:text-2xl text-white/85 mt-2 md:mt-4 text-center"
         >
-          ไร่ออร์แกนิกคุณภาพเยี่ยม ส่งตรงถึงร้านอาหารระดับมิชลินสตาร์
+          ความพอเพียงในอ้อมกอดธรรมชาติ ที่สร้างสรรค์โดย Gentleman Farmer
+          ในวัยเกษียณ
         </motion.p>
       </div>
     </>

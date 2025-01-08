@@ -17,17 +17,17 @@ const ContactComponent: FC<Props> = (): JSX.Element => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-7 items-start">
             <div className="flex flex-col gap-4 ">
               <h1 className="text-2xl md:text-4xl  font-normal uppercase text-[#1f3026]">
-                สัมผัสประสบการณ์พิเศษที่
-                <span className="font-semibold px-2">ไร่จันทร์งาม</span>
+                โลเคชันที่เหมาะสำหรับคนที่รักชีวิตกลางแจ้ง
+                {/* <span className="font-semibold px-2">ไร่จันทน์งาม</span> */}
               </h1>
 
               <h2 className="text-[#1f3026] text-base md:text-lg opacity-75 ">
-                เราอยากเชิญคุณมาร่วมเป็นส่วนหนึ่งของประสบการณ์สุดพิเศษที่ไร่จันทร์งาม
-                บรรยากาศสวนเกษตรอินทรีย์ที่รายล้อมไปด้วยธรรมชาติ
-                สูดอากาศบริสุทธิ์ และสัมผัสถึงความรักที่เรามอบให้กับทุกผลผลิต
-                อย่าลืมแวะมาหาเรา
-                เพื่อนำความสดชื่นและคุณภาพของไร่จันทร์งามกลับไปสู่บ้านของคุณ
-                ด้วยผลิตภัณฑ์ออร์แกนิคคุณภาพเยี่ยมที่คัดสรรมาเพื่อคุณโดยเฉพาะ
+                ไร่จันทน์งาม ตั้งอยู่ในทำเลที่เหมาะสำหรับคนรักธรรมชาติ
+                ด้วยบรรยากาศสีเขียวของไร่ที่รายล้อมไปด้วยสถานที่ท่องเที่ยวขึ้นชื่อ
+                เช่น ลำตะคอง, ภาพเขียน 3,000 ปีที่วัดเขาจันทน์งาม นอกจากนั้น
+                ยังมีสนามกอล์ฟ 18 หลุม อยู่ติดกันกับไร่ด้วย
+                จึงทำให้ที่นี่เป็นเหมาะกับการเยี่ยมชม
+                สำหรับทั้งครอบครัวหรือกลุ่มเพื่อนที่ต้องการหลีกหนีความวุ่นวายของเมือง
               </h2>
 
               <div className="flex  gap-2 items-center ">
@@ -118,7 +118,7 @@ const ContactComponent: FC<Props> = (): JSX.Element => {
 
                     <div>
                       <p className="font-medium text-center flex-1   ">
-                        ไร่จันทร์งาม
+                        ไร่จันทน์งาม
                       </p>
                       <p className="text-sm text-center opacity-85">
                         {" "}
@@ -131,7 +131,7 @@ const ContactComponent: FC<Props> = (): JSX.Element => {
 
                 <div className="w-full h-fit md:h-48 border border-tertiary rounded-xl group overflow-hidden">
                   <a
-                    href="tel:+6643615234"
+                    href="tel:+66898927104"
                     className="flex flex-row md:flex-col items-center md:justify-center gap-4 p-5 group-hover:bg-tertiary group-hover:text-white group-hover:bg-[#1f3026] w-full h-full transition-all duration-200"
                   >
                     <svg
@@ -235,7 +235,7 @@ const ContactComponent: FC<Props> = (): JSX.Element => {
                     </svg>
 
                     <p className="text-sm text-center uppercase flex-1  font-medium ">
-                      084 361 5234
+                      089-892-7104, 081-948-3748
                     </p>
                   </a>
                 </div>
